@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-29T16:46:27 IST" name="Default suite" finished-at="2025-12-29T16:46:38 IST" duration-ms="10888">
+    <groups>
+    </groups>
+    <test started-at="2025-12-29T16:46:27 IST" name="Default test" finished-at="2025-12-29T16:46:38 IST" duration-ms="10888">
+      <class name="com.ibm.practice.testNg.ProductsTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ibm.practice.testNg.ProductsTest@5542c4ed]" started-at="2025-12-29T16:46:27 IST" name="setUp" finished-at="2025-12-29T16:46:30 IST" duration-ms="3562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="loginBeforeEachTest()[pri:0, instance:com.ibm.practice.testNg.ProductsTest@5542c4ed]" started-at="2025-12-29T16:46:30 IST" name="loginBeforeEachTest" finished-at="2025-12-29T16:46:31 IST" duration-ms="209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginBeforeEachTest -->
+        <test-method signature="testProductsPageTitle()[pri:1, instance:com.ibm.practice.testNg.ProductsTest@5542c4ed]" started-at="2025-12-29T16:46:31 IST" name="testProductsPageTitle" finished-at="2025-12-29T16:46:31 IST" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductsPageTitle -->
+        <test-method is-config="true" signature="cleanupAfterEachTest()[pri:0, instance:com.ibm.practice.testNg.ProductsTest@5542c4ed]" started-at="2025-12-29T16:46:31 IST" name="cleanupAfterEachTest" finished-at="2025-12-29T16:46:31 IST" duration-ms="207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanupAfterEachTest -->
+        <test-method is-config="true" signature="loginBeforeEachTest()[pri:0, instance:com.ibm.practice.testNg.ProductsTest@5542c4ed]" started-at="2025-12-29T16:46:31 IST" name="loginBeforeEachTest" finished-at="2025-12-29T16:46:31 IST" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginBeforeEachTest -->
+        <test-method signature="testProductsDisplayed()[pri:2, instance:com.ibm.practice.testNg.ProductsTest@5542c4ed]" started-at="2025-12-29T16:46:31 IST" name="testProductsDisplayed" finished-at="2025-12-29T16:46:31 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductsDisplayed -->
+        <test-method is-config="true" signature="cleanupAfterEachTest()[pri:0, instance:com.ibm.practice.testNg.ProductsTest@5542c4ed]" started-at="2025-12-29T16:46:31 IST" name="cleanupAfterEachTest" finished-at="2025-12-29T16:46:31 IST" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanupAfterEachTest -->
+        <test-method is-config="true" signature="loginBeforeEachTest()[pri:0, instance:com.ibm.practice.testNg.ProductsTest@5542c4ed]" started-at="2025-12-29T16:46:31 IST" name="loginBeforeEachTest" finished-at="2025-12-29T16:46:31 IST" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginBeforeEachTest -->
+        <test-method signature="testProductCount()[pri:3, instance:com.ibm.practice.testNg.ProductsTest@5542c4ed]" started-at="2025-12-29T16:46:31 IST" name="testProductCount" finished-at="2025-12-29T16:46:31 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductCount -->
+        <test-method is-config="true" signature="cleanupAfterEachTest()[pri:0, instance:com.ibm.practice.testNg.ProductsTest@5542c4ed]" started-at="2025-12-29T16:46:31 IST" name="cleanupAfterEachTest" finished-at="2025-12-29T16:46:31 IST" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanupAfterEachTest -->
+        <test-method is-config="true" signature="loginBeforeEachTest()[pri:0, instance:com.ibm.practice.testNg.ProductsTest@5542c4ed]" started-at="2025-12-29T16:46:31 IST" name="loginBeforeEachTest" finished-at="2025-12-29T16:46:32 IST" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginBeforeEachTest -->
+        <test-method signature="testAddToCart()[pri:4, instance:com.ibm.practice.testNg.ProductsTest@5542c4ed]" started-at="2025-12-29T16:46:32 IST" name="testAddToCart" finished-at="2025-12-29T16:46:32 IST" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddToCart -->
+        <test-method is-config="true" signature="cleanupAfterEachTest()[pri:0, instance:com.ibm.practice.testNg.ProductsTest@5542c4ed]" started-at="2025-12-29T16:46:32 IST" name="cleanupAfterEachTest" finished-at="2025-12-29T16:46:32 IST" duration-ms="393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanupAfterEachTest -->
+        <test-method is-config="true" signature="loginBeforeEachTest()[pri:0, instance:com.ibm.practice.testNg.ProductsTest@5542c4ed]" started-at="2025-12-29T16:46:32 IST" name="loginBeforeEachTest" finished-at="2025-12-29T16:46:32 IST" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginBeforeEachTest -->
+        <test-method signature="testRemoveFromCart()[pri:5, instance:com.ibm.practice.testNg.ProductsTest@5542c4ed]" started-at="2025-12-29T16:46:32 IST" name="testRemoveFromCart" finished-at="2025-12-29T16:46:32 IST" duration-ms="148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemoveFromCart -->
+        <test-method is-config="true" signature="cleanupAfterEachTest()[pri:0, instance:com.ibm.practice.testNg.ProductsTest@5542c4ed]" started-at="2025-12-29T16:46:32 IST" name="cleanupAfterEachTest" finished-at="2025-12-29T16:46:33 IST" duration-ms="165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanupAfterEachTest -->
+        <test-method is-config="true" signature="loginBeforeEachTest()[pri:0, instance:com.ibm.practice.testNg.ProductsTest@5542c4ed]" started-at="2025-12-29T16:46:33 IST" name="loginBeforeEachTest" finished-at="2025-12-29T16:46:33 IST" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginBeforeEachTest -->
+        <test-method signature="testAddMultipleItems()[pri:6, instance:com.ibm.practice.testNg.ProductsTest@5542c4ed]" started-at="2025-12-29T16:46:33 IST" name="testAddMultipleItems" finished-at="2025-12-29T16:46:33 IST" duration-ms="229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddMultipleItems -->
+        <test-method is-config="true" signature="cleanupAfterEachTest()[pri:0, instance:com.ibm.practice.testNg.ProductsTest@5542c4ed]" started-at="2025-12-29T16:46:33 IST" name="cleanupAfterEachTest" finished-at="2025-12-29T16:46:33 IST" duration-ms="525" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanupAfterEachTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ibm.practice.testNg.ProductsTest@5542c4ed]" started-at="2025-12-29T16:46:33 IST" name="tearDown" finished-at="2025-12-29T16:46:34 IST" duration-ms="741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ibm.practice.testNg.ProductsTest -->
+      <class name="com.ibm.practice.testNg.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ibm.practice.testNg.LoginTest@2f4948e4]" started-at="2025-12-29T16:46:34 IST" name="setUp" finished-at="2025-12-29T16:46:37 IST" duration-ms="2663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testValidLogin()[pri:0, instance:com.ibm.practice.testNg.LoginTest@2f4948e4]" started-at="2025-12-29T16:46:37 IST" name="testValidLogin" finished-at="2025-12-29T16:46:37 IST" duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ibm.practice.testNg.LoginTest@2f4948e4]" started-at="2025-12-29T16:46:37 IST" name="tearDown" finished-at="2025-12-29T16:46:38 IST" duration-ms="650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ibm.practice.testNg.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
