@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="First package">
+  <packages>
+  <package name = "com.ibm.pageObjectModel.pages" />
+  </packages>
+  </test>
+  
+  <test name="Second package">
+  <packages>
+  <package name = "com.ibm.pageObjectModel.tests" />
+  </packages>
+  </test>
+  
+</suite> <!-- Suite -->
