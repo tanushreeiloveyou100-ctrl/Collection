@@ -4,6 +4,7 @@ import java.time.Duration;
 import java.util.List;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -13,20 +14,23 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class ProductsTest extends BaseTest {
+
     
     @BeforeMethod
     public void loginBeforeEachTest() {
-       // System.out.println("Logging in...");
         driver.findElement(By.id("user-name")).sendKeys("standard_user");
         driver.findElement(By.id("password")).sendKeys("secret_sauce");
         driver.findElement(By.id("login-button")).click();
-       // System.out.println("Login successful!");
+        
+        WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(10));
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.className("inventory_item")));
+        
     }
     
     @AfterMethod
     public void cleanupAfterEachTest() {
         clearCart();
-        
+
         logout();
         
     }
@@ -37,9 +41,6 @@ public class ProductsTest extends BaseTest {
             List<WebElement> cartBadge = driver.findElements(By.className("shopping_cart_badge"));
             
             if (cartBadge.size() > 0) {
-                //System.out.println("Cart has items. Clearing cart...");
-                
-                // Go to cart page
                 driver.findElement(By.className("shopping_cart_link")).click();
                 
                 // Find all remove buttons and click them

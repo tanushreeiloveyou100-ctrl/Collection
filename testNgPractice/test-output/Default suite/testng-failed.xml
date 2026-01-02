@@ -6,9 +6,14 @@
       <class name="com.ibm.practice.testNg.ProductsTest">
         <methods>
           <include name="setUp"/>
-          <include name="testRemoveFromCart"/>
+          <include name="testProductCount"/>
+          <include name="testAddMultipleItems"/>
+          <include name="loginBeforeEachTest"/>
           <include name="tearDown"/>
-          <include name="loginBeforeTest"/>
+          <include name="cleanupAfterEachTest"/>
+          <include name="testRemoveFromCart"/>
+          <include name="testAddToCart"/>
+          <include name="testProductsDisplayed"/>
         </methods>
       </class> <!-- com.ibm.practice.testNg.ProductsTest -->
     </classes>
