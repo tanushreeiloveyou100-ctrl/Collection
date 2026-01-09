@@ -19,8 +19,7 @@ public class BaseTest {
 	@BeforeClass
 	public void setUp() throws MalformedURLException {
 		System.out.println("Opening browser...");
-		FirefoxOptions option = new FirefoxOptions();
-		driver = new RemoteWebDriver(new URL("http://localhost:4444"), option);
+		driver = new FirefoxDriver();
 		
 		driver.manage().window().maximize();
        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
