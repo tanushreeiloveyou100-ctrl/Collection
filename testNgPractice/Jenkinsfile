@@ -2,7 +2,6 @@ pipeline {
     agent any
     
     tools {
-        // Define Maven tool, must match the name configured in Jenkins Global Tool Configuration
         maven 'Maven' // Use the name of your Maven installation in Jenkins
     }
 
@@ -10,14 +9,13 @@ pipeline {
         stage('Clean and Test') {
             steps {
                 echo 'Building and Testing...'
-                sh 'mvn clean test'
+                bat 'mvn clean test' // Using bat instead of sh for Windows
             }
         }
     }
     
     post {
         always {
-            // Archive test results
             junit allowEmptyResults: true, testResults: '**/target/surefire-reports/*.xml'
         }
     }
