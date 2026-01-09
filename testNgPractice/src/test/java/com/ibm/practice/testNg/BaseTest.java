@@ -1,13 +1,10 @@
 package com.ibm.practice.testNg;
 
 import java.net.MalformedURLException;
-import java.net.URL;
 import java.time.Duration;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.firefox.FirefoxOptions;
-import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
@@ -19,6 +16,8 @@ public class BaseTest {
 	@BeforeClass
 	public void setUp() throws MalformedURLException {
 		System.out.println("Opening browser...");
+//		FirefoxOptions option = new FirefoxOptions();
+//		driver = new RemoteWebDriver(new URL("http://localhost:4444"), option);
 		driver = new FirefoxDriver();
 		
 		driver.manage().window().maximize();
