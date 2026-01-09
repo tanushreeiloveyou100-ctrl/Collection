@@ -2,14 +2,14 @@ pipeline {
     agent any
     
     tools {
-        maven 'Maven' // Use the name of your Maven installation in Jenkins
+        maven 'Maven' 
     }
 
     stages {
         stage('Clean and Test') {
             steps {
                 echo 'Building and Testing...'
-                bat 'mvn clean test' // Using bat instead of sh for Windows
+                bat 'mvn clean test -f testNgPractice/pom.xml'
             }
         }
     }
