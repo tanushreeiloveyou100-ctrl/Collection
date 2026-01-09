@@ -1,21 +1,25 @@
+groovy
 pipeline {
     agent any
+    
+    tools {
+        // Define Maven tool, must match the name configured in Jenkins Global Tool Configuration
+        maven 'Maven' // Use the name of your Maven installation in Jenkins
+    }
 
     stages {
-        stage('Build') {
+        stage('Clean and Test') {
             steps {
-                echo 'Building..'
+                echo 'Building and Testing...'
+                sh 'mvn clean test'
             }
         }
-        stage('Test') {
-            steps {
-                echo 'Testing..'
-            }
-        }
-        stage('Deploy') {
-            steps {
-                echo 'Deploying....'
-            }
+    }
+    
+    post {
+        always {
+            // Archive test results
+            junit allowEmptyResults: true, testResults: '**/target/surefire-reports/*.xml'
         }
     }
 }
