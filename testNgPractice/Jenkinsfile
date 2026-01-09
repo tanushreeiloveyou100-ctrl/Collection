@@ -1,6 +1,8 @@
 pipeline {
     agent any
-    
+    triggers {
+        cron('25 14 * * *')   // Run January 12 at 14:00
+    }
     tools {
         maven 'Maven' 
     }
